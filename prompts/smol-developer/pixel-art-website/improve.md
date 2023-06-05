@@ -1,0 +1,1 @@
+make the pixel art full page, remove the button and regenerate a pixel art every seconds

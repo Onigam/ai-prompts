@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Reader</title>
+    <link rel="stylesheet" href="popup.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Page Reader</h1>
+        <label for="api-key-input">OpenAI API Key:</label>
+        <input type="text" id="api-key-input" placeholder="Enter your API key">
+        <label for="prompt-input">Prompt:</label>
+        <input type="text" id="prompt-input" placeholder="Enter your prompt">
+        <button id="submit-button">Submit</button>
+        <div id="response-container"></div>
+    </div>
+    <script src="popup.js"></script>
+    <script src="openai_api.js"></script>
+</body>
+</html>

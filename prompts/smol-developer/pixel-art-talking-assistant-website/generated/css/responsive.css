@@ -1,0 +1,24 @@
+@media only screen and (max-width: 768px) {
+  #pixel-art-container {
+    width: 100%;
+    height: auto;
+  }
+
+  #generate-button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  #pixel-art-container {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  #generate-button {
+    font-size: 18px;
+    padding: 12px 24px;
+  }
+}

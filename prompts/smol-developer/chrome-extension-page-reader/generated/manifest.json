@@ -1,0 +1,13 @@
+{
+  "name": "Page Reader",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "A Chrome extension that reads the current page and generates a response from openai.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
