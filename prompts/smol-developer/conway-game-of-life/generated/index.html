@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Generated Conway's Game of Life</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>AI Generated Conway's Game of Life</h1>
+    <div class="game-container">
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+        <form id="gameParameters">
+            <label for="rows">Rows:</label>
+            <input type="number" id="rows" name="rows" min="1" value="50">
+            <label for="columns">Columns:</label>
+            <input type="number" id="columns" name="columns" min="1" value="50">
+            <label for="cellSize">Cell Size:</label>
+            <input type="number" id="cellSize" name="cellSize" min="1" value="10">
+            <label for="interval">Interval (ms):</label>
+            <input type="number" id="interval" name="interval" min="1" value="100">
+        </form>
+        <button id="startButton">Start Game</button>
+    </div>
+    <script src="js/game.js"></script>
+</body>
+</html>
